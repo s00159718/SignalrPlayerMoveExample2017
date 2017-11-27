@@ -33,7 +33,8 @@ namespace SignalrGameServer
             Clients.All.hello();
         }
 
-
+        //GameHub calls the "Joined" method from Game1.cs
+        //Game1.cs calls this method in its "startGame" method
         public PlayerData Join()
         {
             // Check and if the charcters
